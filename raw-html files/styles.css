@@ -1,0 +1,341 @@
+/*---------Defines BODY style for every page.--------------*/
+body{
+    background: url("mjhd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: #ffffff; 
+    overflow-x: hidden;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/*---------NAVBAR style for every page--------------*/
+.navbar {
+    width: 100%;
+    background-color: #0e0e1a; 
+    overflow: hidden;
+    padding-top: 0;
+    margin-top: 0%;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-right: 20px;
+ 
+  }
+  
+ 
+  .navbar a {
+    text-decoration: none;
+    font-style: none;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:red;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-size: medium;
+    padding-right: 15px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color:#07070c ;
+    color: white;
+  }
+  
+ 
+
+
+/*---------Heading and title of every page--------------*/
+#description{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 1px black;
+    background-color: #0d0d4623;
+    width: 50%;
+    padding: 30px 40px;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
+.head{ /* h2 heading */
+    background: -webkit-linear-gradient(rgb(255, 3, 3), rgba(255, 255, 255, 0.774));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    box-shadow: 0 1.5px 0 0 rgb(173, 173, 173);
+    z-index: 5000;
+}
+
+.p-desc{ /* under heading description */
+    font-size:medium;
+}
+
+
+
+
+
+/*---------PAGE-1--------------*/
+/*-------------TO-DO LIST CARD -----------------------*/
+form{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 8%;
+    background-color: #1b1b32b7;  
+    width: 30%;
+    box-shadow: 2px 2px 2px 1px black;
+    border-radius: 10px;
+    
+}
+
+#todolist{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 20px;
+}
+
+.todolabel{
+    margin-left: 38%;
+    justify-content: center;
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: medium;
+    color: greenyellow;
+}
+
+
+/*-------------ul STYLES-----------------------*/
+ul li {
+    list-style:circle;
+    width: 80%;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 20px;
+    margin-bottom: 11px;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: red;
+    box-shadow:0 1px 0 0 rgba(99, 98, 98, 0.336);
+}
+
+ul li:hover {
+    background: #11111f;
+    color: white;
+  }
+
+.checked {
+    color: greenyellow;
+    list-style: disc;
+  }
+
+
+
+/* --------------------SAVE BUTTON STYLE------------------- */
+button#save{
+    align-items: center;
+    margin-right: 40%;
+    margin-left: 35%;
+    margin-top: 3%;
+    height: 2rem;
+    width: 150px;
+    border-radius: 7px;
+    z-index: 5000;
+    background-color: #10101d;
+    color: greenyellow;
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2)
+}
+
+#save:hover{
+    cursor:pointer;
+    background-color: greenyellow;
+    border: 3px solid #4CAF50;
+    color: black;
+    border: 1px solid black;
+
+}
+/*---------page_1 ends--------------*/
+
+
+
+
+
+
+
+
+/*---------PAGE_2--------------*/
+/*-------------OL STYLES-----------------------*/
+ol{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+ol li {
+    list-style:decimal;
+    width: 80%;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 20px;
+    margin-bottom: 11px;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: -webkit-linear-gradient(red,rgb(255, 148, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 5000;    
+    box-shadow:0 1px 0 0 rgba(99, 98, 98, 0.336);
+}
+
+/*---------SPAN ELEMENTS- {BOTH PAGE 1 and 2}--------------*/
+span{
+    float: right;
+}
+
+#spn-btn{
+    color: wheat;
+    border-radius: 5px;
+    height: 1rem;
+    width: 2.5rem;
+    text-align: center;
+    font-size: small;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 1px 0 4px 0 rgb(0, 0, 0)
+}
+
+img.spn-img{
+    float: left;
+    width: 2rem;
+
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 50%;
+}
+
+/*---------PAGE-2 ENDS--------------*/
+
+
+
+
+
+/*---------PAGE-3--------------*/
+/*---------Date input--------------*/
+.cent{
+    margin-left: 40%;
+    margin-right: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+@media only screen and (max-width:700px){
+    body{
+        width: auto;
+        height: auto;
+        overflow-x: hidden;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+
+    .navbar a {
+        text-decoration: none;
+        font-style: none;
+        float: left;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 0;
+        padding-left: 1px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        color:red;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        font-size: medium;
+        padding-right: 5%;
+      }
+    #description{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.5%;
+        padding-bottom: 2%;
+        width: 80%;
+       
+    }
+   p#description{
+    padding-top: 0;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    font-size: small;
+   }
+    
+
+
+   /*-------------TO-DO LIST CARD-----------------------*/
+   form{
+    width: 100%;
+    background-color: #1b1b3231;  
+    
+   }
+
+   #todolabel{
+    margin-top: 50%;
+    margin-bottom: 60%;
+    padding-bottom: 60%;
+   }
+
+   #todolist{
+    padding-top: 20px;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+   /*-------------ul STYLES-----------------------*/
+
+
+
+   button#save{
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 130px;
+    font-size: medium;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2)
+    
+}
+
+    ul li {
+    list-style:circle;
+    width: 80%;
+    cursor: pointer;
+    padding: 8px 4px 8px 10px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: red;
+}
+ul li:hover {
+    background: inherit;
+    color: red;
+  }
+
+
+
+}
